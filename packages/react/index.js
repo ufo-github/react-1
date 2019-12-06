@@ -14,3 +14,6 @@ const React = require('./src/React');
 // TODO: decide on the top-level export form.
 // This is hacky but makes it work with both Rollup and Jest.
 module.exports = React.default || React;
+
+// react 入口文件， 导出 commonjs2 module
+
